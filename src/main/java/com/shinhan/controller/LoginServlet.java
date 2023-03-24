@@ -7,10 +7,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
+
+ 
+
 /**
  * Servlet implementation class LoginServlet
  */
-@WebServlet("/loginConfirm")
+@WebServlet("/day1/loginConfirm")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
